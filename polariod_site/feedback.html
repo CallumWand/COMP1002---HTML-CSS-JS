@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Polaroid Land Camera | Feedback</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <h1>Polaroid Land Camera</h1>
+        <p>Instant photographs in minutes with no darkroom required!</p>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="promo.html">Promotion</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="company.html">Company</a></li>
+        </ul>
+    </nav>
+
+    <!--Main section-->
+    <main>
+        <section>
+            <h2>Customer Feedback</h2>
+                <p>
+                We value your thoughts on the Polaroid Land Camera. Please leave your comments below!
+                </p>
+        </section>
+
+        <section>
+            <h3>Submit Your Feedback</h3>
+
+            <!--Feedback form-->
+            <form id="feedbackForm">
+                <fieldset>
+                    <legend>Your Information</legend>
+
+                    <label for="fullName">Name:</label>
+                    <input type="text" id="fullName" name="fullName" maxlength="40" required>
+
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" maxlength="40">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Rating</legend>
+
+                    <label>
+                    <input type="radio" name="rating" value="5" required>
+                    5 - Excellent
+                    </label>
+                    <label>
+                    <input type="radio" name="rating" value="4">
+                    4 - Very Good
+                    </label>
+                    <label>
+                    <input type="radio" name="rating" value="3">
+                    3 - Good
+                    </label>
+                    <label>
+                    <input type="radio" name="rating" value="2">
+                    2 - Fair
+                    </label>
+                    <label>
+                    <input type="radio" name="rating" value="1">
+                    1 - Poor
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Comments</legend>
+
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" rows="5" maxlength="300" required></textarea>
+
+                </fieldset>
+
+                <button type="submit">Submit Feedback</button>
+                <button type="reset">Clear</button>
+            </form>
+
+        <p id="submitMessage">
+            Thank you for your feedback! Your comments have been recorded.
+        </p>
+    </section>
+</main>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; 1937 Polaroid Corporation. All rights reserved.</p>
+    </footer>
+
+    <!--JavaScript file-->
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

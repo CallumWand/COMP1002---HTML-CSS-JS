@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f1ec;
+    color: #222;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    margin: 8px;
+    font-style: italic;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    text-align: center; 
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    border-bottom: 2px solid #999;
+    padding-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #ddd;
+}
+#submitMessage {
+    display: none;
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+.company-figure {
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.company-figure img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #999;
+}
+
+.product-figure {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.product-figure img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    border: 1px solid #999;
+}
